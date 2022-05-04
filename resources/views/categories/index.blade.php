@@ -1,4 +1,4 @@
-@extends('layouts.app')　　　　　　　　　　　　　　　　　　
+@extends('layouts.app')　　
 
 @section('content')
 <!DOCTYPE html>
@@ -33,7 +33,7 @@
         <div class='paginate'>
             {{ $posts->links() }}
         </div>
-        {{--<script src="{{ mix('js/curriculum08-6.js') }}"></script>--}}
+        <script src="{{ mix('js/curriculum08-6.js') }}"></script>
     </body>
 </html>
 @endsection
